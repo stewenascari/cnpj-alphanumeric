@@ -1,0 +1,63 @@
+{
+  "name": "cnpj-alphanumeric",
+  "version": "1.0.0",
+  "description": "Valida CNPJ Alfanumérico.",
+  "author": "backll1ki",
+  "license": "MIT",
+  "main": "dist/cnpj-alphanumeric.cjs.js",
+  "types": "src/types/index.d.ts",
+  "module": "dist/cnpj-alphanumeric.es.js",
+  "scripts": {
+    "build": "bili src/index.ts",
+    "test": "ts-node jest.startup.ts --detectOpenHandles --forceExit --no-cache",
+    "pretest": "npm run build",
+    "prepublishOnly": "npm run test"
+  },
+  "files": [
+    "dist/",
+    "types/"
+  ],
+  "jest": {
+    "testEnvironment": "node",
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stewenascari/cnpj-alphanumeric.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stewenascari/cnpj-alphanumeric/issues"
+  },
+  "homepage": "https://github.com/stewenascari/cnpj-alphanumeric#readme",
+  "devDependencies": {
+    "@types/jest": "^23.3.14",
+    "bili": "^3.4.2",
+    "jest": "^23.6.0",
+    "jest-cli": "^23.6.0",
+    "rollup-plugin-typescript2": "^0.29.0",
+    "ts-jest": "^23.10.5",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.5.3"
+  },
+  "peerDependencies": {
+    "joi": "^17.4.2"
+  },
+  "keywords": [
+    "node",
+    "joi",
+    "cpf",
+    "cnpj",
+    "validator"
+  ]
+}
