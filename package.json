@@ -1,5 +1,5 @@
 {
-  "name": "validate-cnpj-alphanum",
+  "name": "validator-cnpj-alphanum",
   "version": "1.0.0",
   "description": "Valida CNPJs tanto alfanuméricos quanto numéricos",
   "author": "backll1ki",
