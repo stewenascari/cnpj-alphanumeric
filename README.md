@@ -1,6 +1,5 @@
 # cnpj-alphanumeric-validator
 Valida CNPJs tanto alfanuméricos quanto numéricos.
-https://github.com/stewenascari/cnpj-alphanumeric
 
 [![travis][travis-image]][travis-url]
 [![npm][npm-image]][npm-url]
