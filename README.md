@@ -1,12 +1,10 @@
 # cnpj-alphanumeric-validator
 Valida CNPJs tanto alfanuméricos quanto numéricos.
 
-[![travis][travis-image]][travis-url]
 [![npm][npm-image]][npm-url]
 ![GitHub top language](https://img.shields.io/github/languages/top/stewenascari/cnpj-alphanumeric)
 ![GitHub last commit](https://img.shields.io/github/last-commit/stewenascari/cnpj-alphanumeric)
 
-[travis-image]: https://travis-ci.org/stewenascari/cnpj-alphanumeric.svg?branch=main
 [travis-url]: https://travis-ci.org/stewenascari/cnpj-alphanumeric
 [npm-image]: https://img.shields.io/npm/v/cnpj-alphanumeric-validator.svg?style=flat
 [npm-url]: https://npmjs.org/package/cnpj-alphanumeric-validator
