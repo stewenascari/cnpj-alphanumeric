@@ -1,15 +1,16 @@
 # cnpj-alphanumeric-validator
 Valida CNPJs tanto alfanuméricos quanto numéricos.
+https://github.com/stewenascari/cnpj-alphanumeric
 
 [![travis][travis-image]][travis-url]
 [![npm][npm-image]][npm-url]
-![GitHub top language](https://img.shields.io/github/languages/top/carvalhoviniciusluiz/cpf-cnpj-validator)
-![GitHub last commit](https://img.shields.io/github/last-commit/carvalhoviniciusluiz/cpf-cnpj-validator)
+![GitHub top language](https://img.shields.io/github/languages/top/stewenascari/cnpj-alphanumeric)
+![GitHub last commit](https://img.shields.io/github/last-commit/stewenascari/cnpj-alphanumeric)
 
-[travis-image]: https://travis-ci.org/carvalhoviniciusluiz/cpf-cnpj-validator.svg?branch=master
-[travis-url]: https://travis-ci.org/carvalhoviniciusluiz/cpf-cnpj-validator
-[npm-image]: https://img.shields.io/npm/v/cpf-cnpj-validator.svg?style=flat
-[npm-url]: https://npmjs.org/package/cpf-cnpj-validator
+[travis-image]: https://travis-ci.org/stewenascari/cnpj-alphanumeric.svg?branch=master
+[travis-url]: https://travis-ci.org/stewenascari/cnpj-alphanumeric
+[npm-image]: https://img.shields.io/npm/v/cnpj-alphanumeric-validator.svg?style=flat
+[npm-url]: https://npmjs.org/package/cnpj-alphanumeric-validator
 
 ### Requer:
 Node ``^8.0.0``
