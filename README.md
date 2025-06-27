@@ -6,22 +6,22 @@ Valida CNPJs tanto alfanuméricos quanto numéricos.
 ![GitHub last commit](https://img.shields.io/github/last-commit/stewenascari/cnpj-alphanumeric)
 
 [travis-url]: https://travis-ci.org/stewenascari/cnpj-alphanumeric
-[npm-image]: https://img.shields.io/npm/v/validator-cnpj-alphanum.svg?style=flat
-[npm-url]: https://npmjs.org/package/validator-cnpj-alphanum
+[npm-image]: https://img.shields.io/npm/v/cnpj-alphanum-validator.svg?style=flat
+[npm-url]: https://npmjs.org/package/cnpj-alphanum-validator
 
 ### Requer:
 Node ``^8.0.0``
 
 ### Instalação:
 ```
-npm i validator-cnpj-alphanum -S
+npm i cnpj-alphanum-validator -S
 ```
 
 ### Joi
 
 [joi](https://www.npmjs.com/package/joi) é uma biblioteca para Node.js que facilita a validação de dados, permitindo definir regras claras e flexíveis para formatos, tipos e estruturas de objetos. Com uma sintaxe intuitiva, ela ajuda a garantir que as entradas da aplicação estejam corretas, melhorando a segurança e a confiabilidade do código.
 
-A biblioteca [validator-cnpj-alphanum](https://www.npmjs.com/package/validator-cnpj-alphanum) oferece um validador personalizado para Joi, permitindo verificar facilmente se uma string representa um CNPJ válido, seja no formato numérico ou alfanumérico. Essa integração simplifica a validação de CNPJs dentro de esquemas Joi, garantindo maior precisão e praticidade no tratamento de dados.
+A biblioteca [cnpj-alphanum-validator](https://www.npmjs.com/package/cnpj-alphanum-validator) oferece um validador personalizado para Joi, permitindo verificar facilmente se uma string representa um CNPJ válido, seja no formato numérico ou alfanumérico. Essa integração simplifica a validação de CNPJs dentro de esquemas Joi, garantindo maior precisão e praticidade no tratamento de dados.
 
 Para utilizar essa integração é necessário:
 
@@ -30,9 +30,9 @@ npm install joi
 ```
 
 ```js
-import validator from 'validator-cnpj-alphanum';
+import validator from 'cnpj-alphanum-validator';
 // or
-// const { validator } = require('validator-cnpj-alphanum')
+// const { validator } = require('cnpj-alphanum-validator')
 //
 const Joi = require('joi').extend(validator)
 
