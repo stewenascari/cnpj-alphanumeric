@@ -1,6 +1,6 @@
 {
   "name": "cnpj-alphanumeric",
-  "version": "1.0.5",
+  "version": "1.0.0",
   "description": "Valida CNPJs tanto alfanuméricos quanto numéricos",
   "author": "backll1ki",
   "license": "MIT",
@@ -32,14 +32,6 @@
       "node"
     ]
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/stewenascari/cnpj-alphanumeric.git"
-  },
-  "bugs": {
-    "url": "https://github.com/stewenascari/cnpj-alphanumeric/issues"
-  },
-  "homepage": "https://github.com/stewenascari/cnpj-alphanumeric#readme",
   "devDependencies": {
     "@types/jest": "^23.3.14",
     "bili": "^3.4.2",
