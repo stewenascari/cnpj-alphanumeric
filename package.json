@@ -1,12 +1,12 @@
 {
-  "name": "validator-cnpj-alphanum",
+  "name": "cnpj-alphanum-validator",
   "version": "1.0.0",
   "description": "Valida CNPJs tanto alfanuméricos quanto numéricos",
   "author": "backll1ki",
   "license": "MIT",
-  "main": "dist/cnpj-alphanumeric.cjs.js",
+  "main": "dist/cnpj-alphanum-validator.cjs.js",
   "types": "src/types/index.d.ts",
-  "module": "dist/cnpj-alphanumeric.es.js",
+  "module": "dist/cnpj-alphanum-validator.es.js",
   "scripts": {
     "build": "bili src/index.ts",
     "test": "ts-node jest.startup.ts --detectOpenHandles --forceExit --no-cache",
