@@ -1,6 +1,6 @@
 {
   "name": "cnpj-alphanumeric",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Valida CNPJs tanto alfanuméricos quanto numéricos",
   "author": "backll1ki",
   "license": "MIT",
@@ -56,7 +56,6 @@
   "keywords": [
     "node",
     "joi",
-    "cpf",
     "cnpj",
     "validator"
   ]
