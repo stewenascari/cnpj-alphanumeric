@@ -12,7 +12,7 @@ Valida CNPJs tanto alfanuméricos quanto numéricos.
 [npm-url]: https://npmjs.org/package/cpf-cnpj-validator
 
 ### Requer:
-Node ``^8.0.0``.
+Node ``^8.0.0``
 
 ### Instalação:
 ```
