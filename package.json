@@ -1,6 +1,6 @@
 {
-  "name": "cnpj-alfanumerico",
-  "version": "1.0.1",
+  "name": "cnpj-alphanumeric-validator",
+  "version": "1.0.0",
   "description": "Valida CNPJs tanto alfanuméricos quanto numéricos",
   "author": "backll1ki",
   "license": "MIT",
