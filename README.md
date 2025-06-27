@@ -1,7 +1,7 @@
 # cnpj-alphanumeric
 Valida CNPJs tanto alfanuméricos quanto numéricos.
 
-# Projeto base - [CPF-CNPJ-VALIDATOR](https://github.com/carvalhoviniciusluiz/cpf-cnpj-validator/tree/master)
+### Projeto base - [CPF-CNPJ-VALIDATOR](https://github.com/carvalhoviniciusluiz/cpf-cnpj-validator/tree/master)
 [![travis][travis-image]][travis-url]
 [![npm][npm-image]][npm-url]
 ![GitHub top language](https://img.shields.io/github/languages/top/carvalhoviniciusluiz/cpf-cnpj-validator)
