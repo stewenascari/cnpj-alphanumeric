@@ -1,5 +1,5 @@
 {
-  "name": "cnpj-alphanumeric-validator",
+  "name": "cnpj_alphanumeric-validator",
   "version": "1.0.0",
   "description": "Valida CNPJs tanto alfanuméricos quanto numéricos",
   "author": "backll1ki",
@@ -49,6 +49,7 @@
     "node",
     "joi",
     "cnpj",
+    "alphanumeric",
     "validator"
   ]
 }
