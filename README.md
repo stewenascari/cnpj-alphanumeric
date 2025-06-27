@@ -1,4 +1,4 @@
-# cnpj_alphanumeric-validator
+# Cnpj Alphanumeric
 Valida CNPJs tanto alfanuméricos quanto numéricos.
 
 [![npm][npm-image]][npm-url]
@@ -6,15 +6,15 @@ Valida CNPJs tanto alfanuméricos quanto numéricos.
 ![GitHub last commit](https://img.shields.io/github/last-commit/stewenascari/cnpj-alphanumeric)
 
 [travis-url]: https://travis-ci.org/stewenascari/cnpj-alphanumeric
-[npm-image]: https://img.shields.io/npm/v/cnpj_alphanumeric-validator.svg?style=flat
-[npm-url]: https://npmjs.org/package/cnpj_alphanumeric-validator
+[npm-image]: https://img.shields.io/npm/v/validate-cnpj-alphanum.svg?style=flat
+[npm-url]: https://npmjs.org/package/validate-cnpj-alphanum
 
 ### Requer:
 Node ``^8.0.0``
 
 ### Instalação:
 ```
-npm i cnpj_alphanumeric-validator -S
+npm i validate-cnpj-alphanum -S
 ```
 
 ### Joi
@@ -30,9 +30,9 @@ npm install joi
 ```
 
 ```js
-import validator from 'cnpj_alphanumeric-validator';
+import validator from 'validate-cnpj-alphanum';
 // or
-// const { validator } = require('cnpj_alphanumeric-validator')
+// const { validator } = require('validate-cnpj-alphanum')
 //
 const Joi = require('joi').extend(validator)
 
